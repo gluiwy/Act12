@@ -20,7 +20,7 @@ class PrintPDF extends Controller
         $fpdf->Ln();
 
         $fpdf->SetFont('Arial', 'BU', 12);
-        $fpdf->Cell(65, 6, '', 0, 0, 'L');
+        $fpdf->Cell(69, 6, '', 0, 0, 'L');
         $fpdf->Cell(20, 6, 'Salary Pay Slip of Ms. XYZ', 6, 0, 'L');
         $fpdf->Ln();
         $fpdf->Ln();
